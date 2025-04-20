@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(248, 148, 173);
+}
+
+main{
+    text-align: center;
+    font-size: 200%;
+    font-family: "Grape Nuts", cursive;
+    font-weight: 400;
+    font-style: normal; 
+  }
+  
+  .email {
+    border: 1px solid none;
+    background-color: rgb(255, 190, 206);
+    color: rgb(100, 98, 98);
+    text-align: center;
+    border-radius: 10px;
+    width: 280px;
+    height: 22px;
+    font-size: large;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+  }
+  
+  div span {
+    display: inline-block;
+    margin-bottom: 100vh;
+    color: white;
+  }
+  
+  a {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    bottom: 55px;
+    left: 78%;
+    right: 25%;
+    color: rgb(100, 98, 98);
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  a::before {
+    color: rgb(100, 98, 98);
+    text-decoration: none;
+  }
+  
+  a::after {
+    color: rgb(100, 98, 98);
+  }
+  
+  .cv {
+    position: relative;
+    color: rgb(100, 98, 98);
+    display: inline-block;
+    bottom: 53px;
+    left:22%;
+    right:75%;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.satu {
+  color: #000;
+}
+
+.dua {
+  color: #fff;
+}
+
+.tiga {
+  color: rgb(255, 190, 206);
+}
+
+div button {
+  margin-left: 600px;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  border-radius:15px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 3px 3px 10px 2px #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
